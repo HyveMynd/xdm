@@ -32,9 +32,9 @@
           "type": "string",
           "description": "The primary event type for this time-series record.",
           "meta:enum": {
-            "advertising.completes": "Indicates if a timed media asset was watched to completion - this does not necessarily mean the viewer watched the whole video; viewer could have skipped ahead.",
-            "advertising.timePlayed": "Describes the amount of time spent by a user on a specific timed media asset.",
-            "advertising.federated": "Indicates if an experience event was created through data federation (data sharing between customers).",
+            "advertising.completes": "Advertising Completes",
+            "advertising.timePlayed": "Advertising Time Played",
+            "advertising.federated": "Advertising Federated",
             "advertising.clicks": "Click(s) actions on an advertisement.",
             "advertising.conversions": "A customer pre-defined action(s) which triggers an event for performance evaluation.",
             "advertising.firstQuartiles": "A digital video ad has played through 25% of its duration at normal speed.",
